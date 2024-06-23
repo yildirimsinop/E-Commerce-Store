@@ -27,7 +27,7 @@ function App() {
           </li>
         ))}
       </ul>
-      <button onClick={addProduct}>Add product</button>
+      <button onClick={addProduct}>Add products</button>
     </div>
   )
 }
