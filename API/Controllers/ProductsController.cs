@@ -27,7 +27,11 @@ namespace API.Controllers
 
         [HttpGet("{id}")]
 
-        public ActionResult
+        public ActionResult<Product> GetProduct(int id)
+
+        {
+            return context.Products.Find(id);
+        }
 
     }
 }
