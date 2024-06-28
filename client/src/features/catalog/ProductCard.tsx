@@ -1,19 +1,38 @@
-import { ListItem, ListItemAvatar, Avatar, ListItemText } from "@mui/material";
+import { Avatar, Button, Card, CardActions, CardContent, CardHeader, CardMedia, Typography } from "@mui/material";
 import { Product } from "../../app/layout/models/product";
 
 interface Props {
-    products: Product;
+    product: Product;
 }
 
 export default function ProductCard({ product }: Props) {
 
     return (
-
-        <ListItem key={product.id}>
-            <ListItemAvatar>
-                <Avatar src={product.pictureUrl} />
-            </ListItemAvatar>
-            <ListItemText>{product.name} - {product.price}</ListItemText>
-        </ListItem>
+        <Card>
+            <CardHeader avatar={
+                <Avatar>
+                    {product.name.charAt(0).toUpperCase()}
+                </Avatar>
+            }
+                title={product.name}
+            />
+            <CardMedia
+                sx={{ height: 140 }}
+                image={product.pictureUrl}
+                title={product.name}
+            />
+            <CardContent>
+                <Typography gutterBottom color='secondary' variant="h5">
+                    {product.price}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                    {product.brand} / {product.type}
+                </Typography>
+            </CardContent>
+            <CardActions>
+                <Button size="small">Add to cart</Button>
+                <Button size="small">View</Button>
+            </CardActions>
+        </Card>
     )
 }
