@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../../../features/home/Homepage";
 import AboutPage from "../../../features/about/AboutPage";
-import { ContactPage } from "@mui/icons-material";
+import ContactPage from "../../../features/contact/ContactPage";
 import ProductDetails from "../../../features/catalog/ProductDetails";
 import App from "../App";
 import Catalog from "../../../features/catalog/Catalog";
