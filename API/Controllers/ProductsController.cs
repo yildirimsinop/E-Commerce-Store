@@ -5,16 +5,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ProductsController : ControllerBase
+    public class ProductsController : BaseApiController
     {
         private readonly StoreContext _context;
         public ProductsController(StoreContext context)
         {
             _context = context;
-
-
         }
 
 
@@ -22,7 +18,6 @@ namespace API.Controllers
         public async Task<ActionResult<List<Product>>> GetProducts()
 
         {
-
             return await _context.Products.ToListAsync();
         }
 
