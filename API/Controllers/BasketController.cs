@@ -29,17 +29,24 @@ namespace API.Controllers
 
 
 
-        [HttpPost]
+        [HttpPost]  //? api/basket?productId=3&quantity=2
         public async Task<ActionResult> AddItemToBasket(int ProductId, int quantity)
 
         {
             var basket = await RetrieveBasket();
             if (basket == null) basket = CreateBasket();
-            //get product
-            // add item
-            // save changes
+            var product = await _context.Products.FindAsync(productId);
+
+            if (product == null) return NotFound();
+            basket.AddItem(product, quantity);
+
+            var result = await _context.SaveChangesAsync() > 0;
+
+            if (result) return StatusCode(201);
 
             return StatusCode(201);
+
+            return BadRequest(new ProblemDetails { Title = "Problem saving item to basket" });
         }
 
 
@@ -65,7 +72,10 @@ namespace API.Controllers
         {
             var buyerId = Guid.NewGuid().ToString();
             var cookieOptions = new CookieOptions { IsEssential = true, Expires = DateTime.Now.AddDays(30) };
-
+            Response.Cookies.Append("buyerId", buyerId, cookieOptions);
+            var basket = new Basket { BuyerId = buyerId };
+            _context.Baskets.Add(basket);
+            return basket;
         }
     }
 }
