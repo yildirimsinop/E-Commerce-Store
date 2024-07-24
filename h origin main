@@ -1,0 +1,425 @@
+[33mcommit 2cf41eba392b9dd176e0f189c8b7eced70bcf970[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Umit <yildirimsinop>
+Date:   Wed Jul 24 18:16:43 2024 +0200
+
+    config
+
+[33mcommit 87746776f279d18d7a42b6c18b069a9de873b20d[m
+Author: Umit <yildirimsinop>
+Date:   Tue Jul 23 19:22:41 2024 +0200
+
+    model
+
+[33mcommit 41e382dc1415e3cad329c69b3449d989596330a8[m
+Author: Umit <yildirimsinop>
+Date:   Mon Jul 22 23:57:31 2024 +0200
+
+    Section 6
+
+[33mcommit c918fe4fc67f5821beaac7cc5ab13241b468e98f[m
+Author: Umit <yildirimsinop>
+Date:   Sat Jul 20 17:20:37 2024 +0200
+
+    test
+
+[33mcommit 7751ca738ae431682f09d6b1ac565662ae32afd3[m
+Author: Umit <yildirimsinop>
+Date:   Sat Jul 20 17:17:03 2024 +0200
+
+    basketDto
+
+[33mcommit 7e1a934b37c3a454ae3e4bbd50ca3d6c7382cad6[m
+Author: Umit <yildirimsinop>
+Date:   Sat Jul 20 17:10:29 2024 +0200
+
+    BasketController
+
+[33mcommit 51168d6c8b7f2dbde40188dbbe7b540f0aa3c9d7[m
+Author: Umit <yildirimsinop>
+Date:   Mon Jul 1 17:38:18 2024 +0200
+
+    basket
+
+[33mcommit 7c9b5d0237375556d955e23e510fe53a8f18c99c[m
+Author: Umit <yildirimsinop>
+Date:   Mon Jul 1 12:27:34 2024 +0200
+
+    basket
+
+[33mcommit f71337a5b276bf7ffdf04140e8acbff0847c993e[m
+Author: Umit <yildirimsinop>
+Date:   Mon Jul 1 01:10:10 2024 +0200
+
+    migration
+
+[33mcommit 22a2792d1eac52068f1b9395a87038185309a977[m
+Author: Umit <yildirimsinop>
+Date:   Mon Jul 1 00:55:07 2024 +0200
+
+    basket
+
+[33mcommit ebce21180c65bb882c55516784dc5d332153a6db[m
+Author: Umit <yildirimsinop>
+Date:   Sun Jun 30 23:40:49 2024 +0200
+
+    route
+
+[33mcommit 7c733f0d433939ba6a6094d475d2ff2e9df655ca[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 22:33:38 2024 +0200
+
+    features
+
+[33mcommit 032fab9494383a1bc36f77721d524697384e8b1c[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 22:01:30 2024 +0200
+
+    product
+
+[33mcommit 4e8adc33b719d99e12f4b71e9c054821ee270fd1[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 21:32:24 2024 +0200
+
+    console.log
+
+[33mcommit db7aa4a66b886f77db4f7621f6bd0bc055c99a3b[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 21:02:00 2024 +0200
+
+    product
+
+[33mcommit 8a840821bdc1517ec77664a480a1d86604851172[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 20:28:22 2024 +0200
+
+    axios
+
+[33mcommit fe4fab723c05ddb443e9cf14bc50a5c7b34f6742[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 16:49:48 2024 +0200
+
+    middleware
+
+[33mcommit bf8e36de0e4aab302a6e4a47490e4782d2fa0599[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 16:48:38 2024 +0200
+
+    middeleware
+
+[33mcommit cf05d4376e7eeb776e1c4976a569caf5fa2c4bf2[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 16:34:42 2024 +0200
+
+    middeleware
+
+[33mcommit 5f86c06c66ced21e061b575406877ba794bfb6d8[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 15:46:21 2024 +0200
+
+    controller
+
+[33mcommit c5be2c6530939c67da733c642b9b628e78c67ee8[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 15:42:06 2024 +0200
+
+    controller
+
+[33mcommit 67aabf758909922b637f04b433bf184650fa5574[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 15:34:56 2024 +0200
+
+    controller
+
+[33mcommit d095181ddb79d502a4c63d38e995eb79db859aa0[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 13:28:47 2024 +0200
+
+    Section 4
+
+[33mcommit 01f2758a8f70bf969c86d2cc56bbe8575f9a157c[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 13:21:40 2024 +0200
+
+    product
+
+[33mcommit 664373b0e9906d2e203271e5d2b640daabfc9025[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 01:53:39 2024 +0200
+
+    id
+
+[33mcommit 9973e0a42dcc8f72a4421dd82651b69d04779525[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 01:19:32 2024 +0200
+
+    Header box
+
+[33mcommit d3389456199b9f139e2bbf1cfc0924704d9755c5[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 01:16:16 2024 +0200
+
+    Header
+
+[33mcommit 1c1681ae3884cb115030ee2089e8e0653f159298[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 01:00:40 2024 +0200
+
+    Header
+
+[33mcommit ec1e35da7d7eff90227a85dda6b5a1e5c8c1ef29[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 00:23:34 2024 +0200
+
+    Login
+
+[33mcommit 869249a471a86cc5d0f007ada9d6b2594c76d430[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 00:19:45 2024 +0200
+
+    Header
+
+[33mcommit e4fc8ad913538d397b1afe28ebb904104d8d8209[m
+Author: Umit Yildirim <umit.yildirim3068@gmail.com>
+Date:   Sun Jun 30 00:03:00 2024 +0200
+
+    test
+
+[33mcommit a9cc697369b3efcb404af0906a1157d0898d064b[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 29 23:56:48 2024 +0200
+
+    test
+
+[33mcommit 00e68f7798e1d057502013a9901f094a08974e71[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 29 23:51:41 2024 +0200
+
+    router
+
+[33mcommit c31559a7fdbe109d2c6686fc8c214801279d6b89[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 29 16:56:28 2024 +0200
+
+    theme
+
+[33mcommit 6ded18e363b2176e8e50af63cdb4ec943ed3d10f[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 29 16:33:55 2024 +0200
+
+    product
+
+[33mcommit 08b7faec7e6f17a1e4c4a1b00730a8c5b440cfe4[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 29 14:44:44 2024 +0200
+
+    api
+
+[33mcommit 9def398600455824199b047d3c07086a4b44dd4b[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Fri Jun 28 21:57:43 2024 +0200
+
+    card
+
+[33mcommit d122a3665605d915cb3209f167c4e0129254ed0a[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Fri Jun 28 00:20:09 2024 +0200
+
+    catolog
+
+[33mcommit 2767f588a27e9db3cc3f65c82aa63d82564ed832[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Thu Jun 27 23:45:17 2024 +0200
+
+    image
+
+[33mcommit 8e83fc65bc08dc95cc9d00af45f536889701a079[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Thu Jun 27 23:43:01 2024 +0200
+
+    button
+
+[33mcommit f8e18d5283a55c1c559099155dfa8f00ffbf12f8[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Wed Jun 26 14:10:39 2024 +0200
+
+    mui
+
+[33mcommit 06529ebf83a978dc473ed53d3e35e03ca33d8fc3[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Mon Jun 24 16:31:50 2024 +0200
+
+    index.tsx
+
+[33mcommit caea167dda9f8713d2fc5d2e42a2eeeef3fdd50b[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Mon Jun 24 02:12:08 2024 +0200
+
+    ts
+
+[33mcommit 3135830ebba81e3848d2ef5ba1ceecde20b5669d[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Mon Jun 24 01:39:31 2024 +0200
+
+    test
+
+[33mcommit 57cabd4df84d18db7330b156819fb07a5860de67[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Mon Jun 24 01:17:01 2024 +0200
+
+    program
+
+[33mcommit fdd226fb0992407c975eb2412c9af9547ee0159f[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Mon Jun 24 00:21:32 2024 +0200
+
+    App.tsx
+
+[33mcommit de9de00a576b823251a752c39b54286cbe859620[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Mon Jun 24 00:09:38 2024 +0200
+
+    callback
+
+[33mcommit 7757b5cf054fbc3650b20ee7ec6df3931f579c56[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sun Jun 23 23:15:05 2024 +0200
+
+    react
+
+[33mcommit 9bef18831b6be18465df5e2234577bb7b059eb23[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sun Jun 23 22:40:04 2024 +0200
+
+    index.html
+
+[33mcommit e854ce7646a79b892f8b9435930b04d87bbe4298[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sun Jun 23 22:26:00 2024 +0200
+
+    package.json
+
+[33mcommit 9cedbf4c90b05e25a36449f7da6a53b6128b08b0[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sun Jun 23 18:01:55 2024 +0200
+
+    React
+
+[33mcommit f64c197b08868bc54e927b46927a0e66af205be7[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sun Jun 23 02:47:05 2024 +0200
+
+    gitgnore
+
+[33mcommit 5de91a6c44fe5ac057a84265de9b31990eec881e[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sun Jun 23 02:27:15 2024 +0200
+
+    _context
+
+[33mcommit 8ca154a0dcddb199d03bab1e6051308de71ee28a[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sun Jun 23 02:11:51 2024 +0200
+
+    swagger
+
+[33mcommit 992a7612f4672dd18251d5396a7df6bb2de9c3df[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sun Jun 23 01:37:49 2024 +0200
+
+    controller
+
+[33mcommit 70724066b18ec1ee1009a901a53c5bbb5eb09437[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 22 21:47:20 2024 +0200
+
+    dotnet watch run
+
+[33mcommit f9436b167b0c9d8caabbd7e3387d5d1eb11f67e7[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 22 21:45:54 2024 +0200
+
+    dotnet watch
+
+[33mcommit dc0fc980fa21f310256ca8b1d1dbbf92e29ff71c[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 22 21:44:05 2024 +0200
+
+    Sqlite
+
+[33mcommit 529489c4c448410d5957c001cfb26bb9d5f555fa[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 22 21:37:09 2024 +0200
+
+    store.db
+
+[33mcommit 4b6567113b32c6fc722bd0bf10e73dc71a62e03c[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 22 21:34:01 2024 +0200
+
+    Products
+
+[33mcommit 64492e19e54620bca15451d004eb1e31631a3cdb[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 22 21:22:30 2024 +0200
+
+    Database
+
+[33mcommit 1d9752e522442cd7e0735a0b80a08e654872c3d8[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 22 20:56:12 2024 +0200
+
+    Open Database
+
+[33mcommit 80a50079c694564c667f1bf8225ab186e3dd2b3f[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Sat Jun 22 20:49:03 2024 +0200
+
+    emigration
+
+[33mcommit 1e766265447317c3bec07f6592392bc43e7560b1[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Fri Jun 21 18:05:51 2024 +0200
+
+    migration
+
+[33mcommit 935f3770be3a2cbb42385b19d00cbc0eecc94d87[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Fri Jun 21 17:46:06 2024 +0200
+
+    DefaultConnection
+
+[33mcommit a45ab937a13eae927868be614b273dd411c400e7[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Fri Jun 21 16:04:13 2024 +0200
+
+    database
+
+[33mcommit 86786a60ccfb66a3ee02100f38df8ecc5e168b1b[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Thu Jun 20 12:55:52 2024 +0200
+
+    database
+
+[33mcommit fd76c2f2d62a28dfcfdb84ffbdd9ab478e3029ad[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Thu Jun 20 10:44:20 2024 +0200
+
+    setting
+
+[33mcommit 1d25fe32f916f89fe6ef6a4ae9e874ff7e0c5dea[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Thu Jun 20 02:24:38 2024 +0200
+
+    launch
+
+[33mcommit 54aa41d3534a93af5c63fec68e59cb353ddac350[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Thu Jun 20 02:23:41 2024 +0200
+
+    template
+
+[33mcommit 427c4d18a714507fcf4dfbf2febefb25e76230f4[m
+Author: Umit Yildirim <umit.yildirim@tingtun.no>
+Date:   Thu Jun 20 02:05:50 2024 +0200
+
+    first commit
