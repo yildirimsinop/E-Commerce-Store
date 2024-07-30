@@ -1,20 +1,21 @@
 using API.Entities;
 using Stripe;
+using Microsoft.Extensions.Configuration;
 
 namespace API.Services;
 
 public class PaymentService
 {
     private readonly IConfiguration _config;
+
     public PaymentService(IConfiguration config)
     {
         _config = config;
+        StripeConfiguration.ApiKey = _config["StripeSettings:SecretKey"];
     }
 
     public async Task<PaymentIntent> CreateOrUpdatePaymentIntent(Basket basket)
     {
-        StripeConfiguration.ApiKey = _config["StripeSettings:SecretKey"];
-
         var service = new PaymentIntentService();
 
         var intent = new PaymentIntent();
