@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tXdNEYhHcH8=",
+  "dgSpecHash": "d8VsiXeg5wA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Umit\\Desktop\\ReStore\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -76,7 +76,7 @@
     "C:\\Users\\Umit\\.nuget\\packages\\sqlitepclraw.core\\2.1.6-pre20230809203314\\sqlitepclraw.core.2.1.6-pre20230809203314.nupkg.sha512",
     "C:\\Users\\Umit\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6-pre20230809203314\\sqlitepclraw.lib.e_sqlite3.2.1.6-pre20230809203314.nupkg.sha512",
     "C:\\Users\\Umit\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6-pre20230809203314\\sqlitepclraw.provider.e_sqlite3.2.1.6-pre20230809203314.nupkg.sha512",
-    "C:\\Users\\Umit\\.nuget\\packages\\stripe.net\\42.8.0\\stripe.net.42.8.0.nupkg.sha512",
+    "C:\\Users\\Umit\\.nuget\\packages\\stripe.net\\45.5.0\\stripe.net.45.5.0.nupkg.sha512",
     "C:\\Users\\Umit\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Umit\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Umit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

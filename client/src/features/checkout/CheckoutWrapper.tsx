@@ -1,6 +1,6 @@
-import {Elements} from "@stripe/react-stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 import CheckoutPage from "./CheckoutPage";
-import {loadStripe} from "@stripe/stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
 import { useState, useEffect } from 'react';
 import agent from '../../app/api/agent';
 import LoadingComponent from '../../app/layout/LoadingComponent';
