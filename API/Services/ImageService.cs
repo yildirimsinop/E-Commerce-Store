@@ -9,14 +9,16 @@ public class ImageService
 
     public ImageService(IConfiguration config)
     {
-        var account = new Account(
-            config["CloudinarySettings:CloudName"],
-            config["CloudinarySettings:ApiKey"],
-            config["CloudinarySettings:ApiSecret"]
+        var acc = new Account
+        (
+            config["Cloudinary:CloudName"],
+            config["Cloudinary:ApiKey"],
+            config["Cloudinary:ApiSecret"]
         );
 
-        _cloudinary = new Cloudinary(account);
+        _cloudinary = new Cloudinary(acc);
     }
+
     public async Task<ImageUploadResult> AddImageAsync(IFormFile file)
     {
         var uploadResult = new ImageUploadResult();
