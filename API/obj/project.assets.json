@@ -7163,11 +7163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Umit\\Desktop\\ReStore\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Umit\\Desktop\\ReStore\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Umit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Umit\\Desktop\\ReStore\\API\\obj\\",
+      "outputPath": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
