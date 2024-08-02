@@ -11,11 +11,14 @@ import { Provider } from 'react-redux';
 import { store } from './app/store/configureStore';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ErrorBoundary from './app/components/ErrorBoundary'; // ErrorBoundary bileşenini içe aktarın
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-      <Provider store={store}>
+    <Provider store={store}>
+      <ErrorBoundary> {/* ErrorBoundary bileşeni ile RouterProvider bileşenini sarın */}
         <RouterProvider router={router} />
-      </Provider>
+      </ErrorBoundary>
+    </Provider>
   </React.StrictMode>,
 )

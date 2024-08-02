@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cIDVDSis0nWk+GZBKP55DADzwB5XHztae5MaN7Qs4a4=",
+  "Hash": "CzDIcXq3SXqTj+O0QDeDSSw3Ji0w4J5rRp3N1mTV0/M=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\ajax-loader-e7b44c86.gif"
+    },
+    {
+      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\API\\wwwroot\\assets\\index-13e6678f.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-13e6678f.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-13e6678f.js"
     },
     {
       "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\API\\wwwroot\\assets\\index-379fbc8d.js",
