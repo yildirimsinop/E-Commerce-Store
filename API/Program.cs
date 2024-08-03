@@ -52,17 +52,48 @@ else
 {
     // Use connection string provided at runtime by FlyIO.
     var connUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
+    if (string.IsNullOrEmpty(connUrl))
+    {
+        throw new Exception("DATABASE_URL environment variable is not set.");
+    }
 
     // Parse connection URL to connection string for Npgsql
     connUrl = connUrl.Replace("postgres://", string.Empty);
-    var pgUserPass = connUrl.Split("@")[0];
-    var pgHostPortDb = connUrl.Split("@")[1];
-    var pgHostPort = pgHostPortDb.Split("/")[0];
-    var pgDb = pgHostPortDb.Split("/")[1];
-    var pgUser = pgUserPass.Split(":")[0];
-    var pgPass = pgUserPass.Split(":")[1];
-    var pgHost = pgHostPort.Split(":")[0];
-    var pgPort = pgHostPort.Split(":")[1];
+    var parts = connUrl.Split("@");
+    if (parts.Length != 2)
+    {
+        throw new Exception("DATABASE_URL format is incorrect.");
+    }
+
+    var pgUserPass = parts[0];
+    var pgHostPortDb = parts[1];
+
+    var hostPortDbParts = pgHostPortDb.Split("/");
+    if (hostPortDbParts.Length != 2)
+    {
+        throw new Exception("Host and database part of DATABASE_URL is incorrect.");
+    }
+
+    var pgHostPort = hostPortDbParts[0];
+    var pgDb = hostPortDbParts[1];
+
+    var userPassParts = pgUserPass.Split(":");
+    if (userPassParts.Length != 2)
+    {
+        throw new Exception("User and password part of DATABASE_URL is incorrect.");
+    }
+
+    var pgUser = userPassParts[0];
+    var pgPass = userPassParts[1];
+
+    var hostPortParts = pgHostPort.Split(":");
+    if (hostPortParts.Length != 2)
+    {
+        throw new Exception("Host and port part of DATABASE_URL is incorrect.");
+    }
+
+    var pgHost = hostPortParts[0];
+    var pgPort = hostPortParts[1];
     var updatedHost = pgHost.Replace("flycast", "internal");
 
     connString = $"Server={updatedHost};Port={pgPort};User Id={pgUser};Password={pgPass};Database={pgDb};";
