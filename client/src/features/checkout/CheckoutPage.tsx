@@ -101,7 +101,6 @@ export default function CheckoutPage() {
             console.log(error);
             setLoading(false);
         }
-
     }
 
     const handleNext = async (data: FieldValues) => {

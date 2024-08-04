@@ -9,18 +9,18 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Configuration.AddUserSecrets<Program>();
 
+// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    // Include 'SecurityScheme' to use JWT Authentication
     var jwtSecurityScheme = new OpenApiSecurityScheme
     {
         BearerFormat = "JWT",
@@ -50,50 +50,21 @@ if (builder.Environment.IsDevelopment())
     connString = builder.Configuration.GetConnectionString("DefaultConnection");
 else
 {
-    // Use connection string provided at runtime by FlyIO.
     var connUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
     if (string.IsNullOrEmpty(connUrl))
     {
         throw new Exception("DATABASE_URL environment variable is not set.");
     }
 
-    // Parse connection URL to connection string for Npgsql
     connUrl = connUrl.Replace("postgres://", string.Empty);
-    var parts = connUrl.Split("@");
-    if (parts.Length != 2)
-    {
-        throw new Exception("DATABASE_URL format is incorrect.");
-    }
-
-    var pgUserPass = parts[0];
-    var pgHostPortDb = parts[1];
-
-    var hostPortDbParts = pgHostPortDb.Split("/");
-    if (hostPortDbParts.Length != 2)
-    {
-        throw new Exception("Host and database part of DATABASE_URL is incorrect.");
-    }
-
-    var pgHostPort = hostPortDbParts[0];
-    var pgDb = hostPortDbParts[1];
-
-    var userPassParts = pgUserPass.Split(":");
-    if (userPassParts.Length != 2)
-    {
-        throw new Exception("User and password part of DATABASE_URL is incorrect.");
-    }
-
-    var pgUser = userPassParts[0];
-    var pgPass = userPassParts[1];
-
-    var hostPortParts = pgHostPort.Split(":");
-    if (hostPortParts.Length != 2)
-    {
-        throw new Exception("Host and port part of DATABASE_URL is incorrect.");
-    }
-
-    var pgHost = hostPortParts[0];
-    var pgPort = hostPortParts[1];
+    var pgUserPass = connUrl.Split("@")[0];
+    var pgHostPortDb = connUrl.Split("@")[1];
+    var pgHostPort = pgHostPortDb.Split("/")[0];
+    var pgDb = pgHostPortDb.Split("/")[1];
+    var pgUser = pgUserPass.Split(":")[0];
+    var pgPass = pgUserPass.Split(":")[1];
+    var pgHost = pgHostPort.Split(":")[0];
+    var pgPort = pgHostPort.Split(":")[1];
     var updatedHost = pgHost.Replace("flycast", "internal");
 
     connString = $"Server={updatedHost};Port={pgPort};User Id={pgUser};Password={pgPass};Database={pgDb};";
@@ -127,16 +98,16 @@ builder.Services.AddAuthorization();
 builder.Services.AddScoped<TokenService>();
 builder.Services.AddScoped<PaymentService>();
 builder.Services.AddScoped<ImageService>();
+builder.Services.AddLogging();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 app.UseMiddleware<ExceptionMiddleware>();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c => 
+    app.UseSwaggerUI(c =>
     {
         c.ConfigObject.AdditionalItems.Add("persistAuthorization", "true");
     });

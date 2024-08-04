@@ -308,3 +308,4 @@ C:\Users\Umit\Desktop\ReStore\E-Commerce-Store\API\obj\Debug\net8.0\refint\API.d
 C:\Users\Umit\Desktop\ReStore\E-Commerce-Store\API\obj\Debug\net8.0\API.pdb
 C:\Users\Umit\Desktop\ReStore\E-Commerce-Store\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\Umit\Desktop\ReStore\E-Commerce-Store\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\Umit\Desktop\ReStore\E-Commerce-Store\API\bin\Debug\net8.0\appsettings.json
