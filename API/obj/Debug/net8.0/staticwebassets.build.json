@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fb/VRBK/0Lgs5Ej/RtppPzOF9lQe2d2uVyf3wCzlaZo=",
+  "Hash": "jfh0w+aQ9VJIcXOM5d3Hi/QeuAFVAFfN/ikLZxpSrHg=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\index-379fbc8d.js"
+    },
+    {
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\index-43a2c775.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-43a2c775.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-43a2c775.js"
     },
     {
       "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\index-4df1fa32.js",

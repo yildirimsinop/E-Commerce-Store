@@ -42,6 +42,7 @@ export default function CheckoutPage() {
     }
 
     function onCardInputChange(event: any) {
+        console.log("Card input change:", event);
         setCardState({
             ...cardState,
             elementError: {
@@ -63,48 +64,64 @@ export default function CheckoutPage() {
         agent.Account.fetchAddress()
             .then(response => {
                 if (response) {
+                    console.log("Address fetched successfully:", response);
                     methods.reset({ ...methods.getValues(), ...response, saveAddress: false })
+                } else {
+                    console.log("No address found for user.");
                 }
             })
+            .catch(error => {
+                console.log("Error fetching address:", error);
+            });
     }, [methods]);
 
     async function submitOrder(data: FieldValues) {
-        setLoading(true);
-        const { nameOnCard, saveAddress, ...shippingAddress } = data;
-        if (!basket?.clientSecret || !stripe || !elements) return; // stripe is not ready;
-        try {
-            const cardElement = elements.getElement(CardNumberElement);
-            const paymentResult = await stripe.confirmCardPayment(basket.clientSecret, {
-                payment_method: {
-                    card: cardElement!,
-                    billing_details: {
-                        name: nameOnCard
-                    }
-                }
-            })
-            console.log(paymentResult);
-            if (paymentResult.paymentIntent?.status === 'succeeded') {
-                const orderNumber = await agent.Orders.create({ saveAddress, shippingAddress });
-                setOrderNumber(orderNumber);
-                setPaymentSucceeded(true);
-                setPaymentMessage('Thank you - we have received your payment');
-                setActiveStep(activeStep + 1);
-                dispatch(clearBasket());
-                setLoading(false);
-            } else {
-                setPaymentMessage(paymentResult.error?.message || 'Payment failed');
-                setPaymentSucceeded(false);
-                setLoading(false);
-                setActiveStep(activeStep + 1);
-            }
-        } catch (error) {
-            console.log(error);
-            setLoading(false);
-        }
+    setLoading(true);
+    const { nameOnCard, saveAddress, ...shippingAddress } = data;
+    console.log("Client Secret:", basket?.clientSecret);
+    console.log("Stripe:", stripe);
+    console.log("Elements:", elements);
+    if (!basket?.clientSecret || !stripe || !elements) {
+        console.log("Stripe is not ready or missing client secret.");
+        return; // stripe is not ready or client secret is missing
     }
+    try {
+        const cardElement = elements.getElement(CardNumberElement);
+        const paymentResult = await stripe.confirmCardPayment(basket.clientSecret, {
+            payment_method: {
+                card: cardElement!,
+                billing_details: {
+                    name: nameOnCard
+                }
+            }
+        });
+        console.log("Payment Result:", paymentResult);
+        if (paymentResult.paymentIntent?.status === 'succeeded') {
+            const orderNumber = await agent.Orders.create({ saveAddress, shippingAddress });
+            setOrderNumber(orderNumber);
+            setPaymentSucceeded(true);
+            setPaymentMessage('Thank you - we have received your payment');
+            setActiveStep(activeStep + 1);
+            dispatch(clearBasket());
+            setLoading(false);
+        } else {
+            console.log("Payment failed:", paymentResult.error?.message);
+            setPaymentMessage(paymentResult.error?.message || 'Payment failed');
+            setPaymentSucceeded(false);
+            setLoading(false);
+            setActiveStep(activeStep + 1);
+        }
+    } catch (error) {
+        console.log("Error in submitOrder:", error);
+        setLoading(false);
+    }
+}
+
 
     const handleNext = async (data: FieldValues) => {
+        console.log("Current Step:", activeStep);
         if (activeStep === steps.length - 1) {
+            console.log("Final step, submitting order...");
             await submitOrder(data);
         } else {
             setActiveStep(activeStep + 1);
@@ -116,14 +133,15 @@ export default function CheckoutPage() {
     };
 
     function submitDisabled(): boolean {
-        if (activeStep === steps.length - 1) {
-            return !cardComplete.cardCvc
+        const isDisabled = activeStep === steps.length - 1
+            ? !cardComplete.cardCvc
                 || !cardComplete.cardExpiry
                 || !cardComplete.cardNumber
                 || !methods.formState.isValid
-        } else {
-            return !methods.formState.isValid
-        }
+            : !methods.formState.isValid;
+
+        console.log("Submit disabled:", isDisabled);
+        return isDisabled;
     }
 
     return (
