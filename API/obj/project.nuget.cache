@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ojxgH0mVTrc=",
+  "dgSpecHash": "FwRzD20QoeI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Umit\\Desktop\\Restore\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Umit\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Umit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

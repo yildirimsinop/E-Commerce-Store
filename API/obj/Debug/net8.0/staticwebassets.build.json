@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cmk/ppPXAZ9N0nKiET7zQ07z22AgBU6FZ7nv/3iuMrc=",
+  "Hash": "Fb/VRBK/0Lgs5Ej/RtppPzOF9lQe2d2uVyf3wCzlaZo=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\ajax-loader-e7b44c86.gif",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\ajax-loader-e7b44c86.gif",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/ajax-loader-e7b44c86.gif",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\ajax-loader-e7b44c86.gif"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\index-13e6678f.js",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\index-13e6678f.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-13e6678f.js",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-13e6678f.js"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\index-379fbc8d.js",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\index-379fbc8d.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-379fbc8d.js",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-379fbc8d.js"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\index-4df1fa32.js",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\index-4df1fa32.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-4df1fa32.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-4df1fa32.js"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\index-c231e92f.css",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\index-c231e92f.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-c231e92f.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-c231e92f.css"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\index-f74d77e2.js",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\index-f74d77e2.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-f74d77e2.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-f74d77e2.js"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-300-normal-47aa3bfa.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-300-normal-47aa3bfa.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-300-normal-47aa3bfa.woff2",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-300-normal-47aa3bfa.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-300-normal-c07952fe.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-300-normal-c07952fe.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-300-normal-c07952fe.woff",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-300-normal-c07952fe.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-400-normal-495d38d4.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-400-normal-495d38d4.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-400-normal-495d38d4.woff2",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-400-normal-495d38d4.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-400-normal-adba67d2.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-400-normal-adba67d2.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-400-normal-adba67d2.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-400-normal-adba67d2.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-500-normal-3728fbdd.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-500-normal-3728fbdd.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-500-normal-3728fbdd.woff2",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-500-normal-3728fbdd.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-500-normal-4bc088e9.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-500-normal-4bc088e9.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-500-normal-4bc088e9.woff",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-500-normal-4bc088e9.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-700-normal-6a84eeee.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-700-normal-6a84eeee.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-700-normal-6a84eeee.woff2",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-700-normal-6a84eeee.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-700-normal-6f82c5e2.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-700-normal-6f82c5e2.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-700-normal-6f82c5e2.woff",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-700-normal-6f82c5e2.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-ext-300-normal-435e4b7f.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-ext-300-normal-435e4b7f.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-300-normal-435e4b7f.woff2",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-300-normal-435e4b7f.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-ext-300-normal-5e06c977.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-ext-300-normal-5e06c977.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-300-normal-5e06c977.woff",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-300-normal-5e06c977.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-ext-400-normal-0a32035a.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-ext-400-normal-0a32035a.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-400-normal-0a32035a.woff",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-400-normal-0a32035a.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-ext-400-normal-b7ef2cd1.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-ext-400-normal-b7ef2cd1.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-400-normal-b7ef2cd1.woff2",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-400-normal-b7ef2cd1.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-ext-500-normal-57138788.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-ext-500-normal-57138788.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-500-normal-57138788.woff",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-500-normal-57138788.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-ext-500-normal-aeed0e51.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-ext-500-normal-aeed0e51.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-500-normal-aeed0e51.woff2",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-500-normal-aeed0e51.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-ext-700-normal-3c505383.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-ext-700-normal-3c505383.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-700-normal-3c505383.woff2",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-700-normal-3c505383.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-cyrillic-ext-700-normal-8ea7934f.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-cyrillic-ext-700-normal-8ea7934f.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-700-normal-8ea7934f.woff",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-700-normal-8ea7934f.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-greek-300-normal-455c2c1a.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-greek-300-normal-455c2c1a.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-300-normal-455c2c1a.woff2",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-300-normal-455c2c1a.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-greek-300-normal-6bb1ef10.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-greek-300-normal-6bb1ef10.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-300-normal-6bb1ef10.woff",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-300-normal-6bb1ef10.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-greek-400-normal-076b9dc1.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-greek-400-normal-076b9dc1.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-400-normal-076b9dc1.woff",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-400-normal-076b9dc1.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-greek-400-normal-daf51ab5.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-greek-400-normal-daf51ab5.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-400-normal-daf51ab5.woff2",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-400-normal-daf51ab5.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-greek-500-normal-713780d8.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-greek-500-normal-713780d8.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-500-normal-713780d8.woff2",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-500-normal-713780d8.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-greek-500-normal-93181eb7.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-greek-500-normal-93181eb7.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-500-normal-93181eb7.woff",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-500-normal-93181eb7.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-greek-700-normal-1c9cc76f.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-greek-700-normal-1c9cc76f.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-700-normal-1c9cc76f.woff2",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-700-normal-1c9cc76f.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-greek-700-normal-3f1a5012.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-greek-700-normal-3f1a5012.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-700-normal-3f1a5012.woff",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-700-normal-3f1a5012.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-300-normal-ddb5c61d.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-300-normal-ddb5c61d.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-300-normal-ddb5c61d.woff",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-300-normal-ddb5c61d.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-300-normal-f7591131.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-300-normal-f7591131.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-300-normal-f7591131.woff2",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-300-normal-f7591131.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-400-normal-a9fdbefa.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-400-normal-a9fdbefa.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-400-normal-a9fdbefa.woff",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-400-normal-a9fdbefa.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-400-normal-f6734f81.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-400-normal-f6734f81.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-400-normal-f6734f81.woff2",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-400-normal-f6734f81.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-500-normal-3ac31048.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-500-normal-3ac31048.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-500-normal-3ac31048.woff",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-500-normal-3ac31048.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-500-normal-b0195382.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-500-normal-b0195382.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-500-normal-b0195382.woff2",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-500-normal-b0195382.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-700-normal-d89bc0fc.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-700-normal-d89bc0fc.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-700-normal-d89bc0fc.woff",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-700-normal-d89bc0fc.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-700-normal-f5aebdfe.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-700-normal-f5aebdfe.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-700-normal-f5aebdfe.woff2",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-700-normal-f5aebdfe.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-ext-300-normal-35da7ccd.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-ext-300-normal-35da7ccd.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-300-normal-35da7ccd.woff",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-300-normal-35da7ccd.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-ext-300-normal-b076e863.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-ext-300-normal-b076e863.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-300-normal-b076e863.woff2",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-300-normal-b076e863.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-ext-400-normal-3c23eb02.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-ext-400-normal-3c23eb02.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-400-normal-3c23eb02.woff2",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-400-normal-3c23eb02.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-ext-400-normal-c2b94086.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-ext-400-normal-c2b94086.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-400-normal-c2b94086.woff",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-400-normal-c2b94086.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-ext-500-normal-7f1c829b.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-ext-500-normal-7f1c829b.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-500-normal-7f1c829b.woff2",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-500-normal-7f1c829b.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-ext-500-normal-a303676a.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-ext-500-normal-a303676a.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-500-normal-a303676a.woff",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-500-normal-a303676a.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-ext-700-normal-3d1cbacf.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-ext-700-normal-3d1cbacf.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-700-normal-3d1cbacf.woff",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-700-normal-3d1cbacf.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-latin-ext-700-normal-fc66f942.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-latin-ext-700-normal-fc66f942.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-700-normal-fc66f942.woff2",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-700-normal-fc66f942.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-vietnamese-300-normal-51f3f418.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-vietnamese-300-normal-51f3f418.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-300-normal-51f3f418.woff2",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-300-normal-51f3f418.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-vietnamese-300-normal-7747ef64.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-vietnamese-300-normal-7747ef64.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-300-normal-7747ef64.woff",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-300-normal-7747ef64.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-vietnamese-400-normal-77b24796.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-vietnamese-400-normal-77b24796.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-400-normal-77b24796.woff2",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-400-normal-77b24796.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-vietnamese-400-normal-d2390f1a.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-vietnamese-400-normal-d2390f1a.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-400-normal-d2390f1a.woff",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-400-normal-d2390f1a.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-vietnamese-500-normal-0948409a.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-vietnamese-500-normal-0948409a.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-500-normal-0948409a.woff2",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-500-normal-0948409a.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-vietnamese-500-normal-7899e6a5.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-vietnamese-500-normal-7899e6a5.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-500-normal-7899e6a5.woff",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-500-normal-7899e6a5.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-vietnamese-700-normal-4ec57f2a.woff2",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-vietnamese-700-normal-4ec57f2a.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-700-normal-4ec57f2a.woff2",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-700-normal-4ec57f2a.woff2"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\roboto-vietnamese-700-normal-d986b503.woff",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\roboto-vietnamese-700-normal-d986b503.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-700-normal-d986b503.woff",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-700-normal-d986b503.woff"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\assets\\slick-12459f22.svg",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\assets\\slick-12459f22.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/slick-12459f22.svg",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\slick-12459f22.svg"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\hero1.jpg",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\hero1.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/hero1.jpg",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\hero2.jpg",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\hero2.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/hero2.jpg",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\hero3.jpg",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\hero3.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/hero3.jpg",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\logo.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\placeholder.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\placeholder.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/placeholder.png",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\placeholder.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\boot-ang1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\boot-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-ang1.png",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\boot-ang2.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\boot-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-ang2.png",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang2.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\boot-core1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\boot-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-core1.png",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-core1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\boot-core2.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\boot-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-core2.png",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-core2.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\boot-redis1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\boot-redis1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-redis1.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\glove-code1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\glove-code1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-code1.png",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-code1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\glove-code2.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\glove-code2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-code2.png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-code2.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\glove-react1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\glove-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-react1.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-react1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\glove-react2.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\glove-react2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-react2.png",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-react2.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\hat-core1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\hat-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-core1.png",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-core1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\hat-react1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\hat-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-react1.png",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-react1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\hat-react2.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\hat-react2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-react2.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-react2.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\sb-ang1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\sb-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ang1.png",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\sb-ang2.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\sb-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ang2.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\sb-core1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\sb-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-core1.png",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\sb-core2.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\sb-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-core2.png",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\sb-react1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\sb-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-react1.png",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-react1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\images\\products\\sb-ts1.png",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\images\\products\\sb-ts1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ts1.png",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ts1.png"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\vite.svg",
+      "Identity": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\vite.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Umit\\Desktop\\ReStore\\E-Commerce-Store\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Umit\\Desktop\\Restore\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "vite.svg",
       "AssetKind": "All",
