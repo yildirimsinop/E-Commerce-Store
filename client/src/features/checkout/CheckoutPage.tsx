@@ -29,17 +29,18 @@ export default function CheckoutPage() {
     const elements = useElements();
 
     function getStepContent(step: number) {
-        switch (step) {
-            case 0:
-                return <AddressForm />;
-            case 1:
-                return <Review />;
-            case 2:
-                return <PaymentForm cardState={cardState} onCardInputChange={onCardInputChange} />;
-            default:
-                throw new Error('Unknown step');
-        }
+    console.log("Rendering step:", step);
+    switch (step) {
+        case 0:
+            return <AddressForm />;
+        case 1:
+            return <Review />;
+        case 2:
+            return <PaymentForm cardState={cardState} onCardInputChange={onCardInputChange} />;
+        default:
+            throw new Error('Unknown step');
     }
+}
 
     function onCardInputChange(event: any) {
         console.log("Card input change:", event);
@@ -75,15 +76,12 @@ export default function CheckoutPage() {
             });
     }, [methods]);
 
-    async function submitOrder(data: FieldValues) {
+async function submitOrder(data: FieldValues) {
     setLoading(true);
     const { nameOnCard, saveAddress, ...shippingAddress } = data;
-    console.log("Client Secret:", basket?.clientSecret);
-    console.log("Stripe:", stripe);
-    console.log("Elements:", elements);
     if (!basket?.clientSecret || !stripe || !elements) {
-        console.log("Stripe is not ready or missing client secret.");
-        return; // stripe is not ready or client secret is missing
+        setLoading(false);
+        return;
     }
     try {
         const cardElement = elements.getElement(CardNumberElement);
@@ -95,7 +93,6 @@ export default function CheckoutPage() {
                 }
             }
         });
-        console.log("Payment Result:", paymentResult);
         if (paymentResult.paymentIntent?.status === 'succeeded') {
             const orderNumber = await agent.Orders.create({ saveAddress, shippingAddress });
             setOrderNumber(orderNumber);
@@ -105,44 +102,46 @@ export default function CheckoutPage() {
             dispatch(clearBasket());
             setLoading(false);
         } else {
-            console.log("Payment failed:", paymentResult.error?.message);
             setPaymentMessage(paymentResult.error?.message || 'Payment failed');
             setPaymentSucceeded(false);
             setLoading(false);
             setActiveStep(activeStep + 1);
         }
     } catch (error) {
-        console.log("Error in submitOrder:", error);
         setLoading(false);
     }
 }
 
 
-    const handleNext = async (data: FieldValues) => {
-        console.log("Current Step:", activeStep);
-        if (activeStep === steps.length - 1) {
-            console.log("Final step, submitting order...");
-            await submitOrder(data);
-        } else {
-            setActiveStep(activeStep + 1);
-        }
-    };
+const handleNext = async (data: FieldValues) => {
+    console.log("Current Step:", activeStep);
+    if (activeStep === steps.length - 1) {
+        console.log("Final step, submitting order...");
+        await submitOrder(data);
+    } else {
+        setActiveStep(activeStep + 1);
+    }
+};
+
+
 
     const handleBack = () => {
         setActiveStep(activeStep - 1);
     };
 
     function submitDisabled(): boolean {
-        const isDisabled = activeStep === steps.length - 1
-            ? !cardComplete.cardCvc
-                || !cardComplete.cardExpiry
-                || !cardComplete.cardNumber
-                || !methods.formState.isValid
-            : !methods.formState.isValid;
+    const isDisabled = activeStep === steps.length - 1
+        ? !cardComplete.cardCvc
+            || !cardComplete.cardExpiry
+            || !cardComplete.cardNumber
+            || !methods.formState.isValid
+        : !methods.formState.isValid;
 
-        console.log("Submit disabled:", isDisabled);
-        return isDisabled;
-    }
+    console.log("Submit disabled:", isDisabled);
+    console.log("Card Complete State:", cardComplete);
+    console.log("Form State Validity:", methods.formState.isValid);
+    return isDisabled;
+}
 
     return (
         <FormProvider {...methods}>

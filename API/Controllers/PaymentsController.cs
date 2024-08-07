@@ -8,59 +8,79 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Stripe;
 
-namespace API.Controllers;
-
-public class PaymentsController : BaseApiController
+namespace API.Controllers
 {
-    private readonly PaymentService _paymentService;
-    private readonly StoreContext _context;
-    private readonly IConfiguration _config;
-    public PaymentsController(PaymentService paymentService, StoreContext context, IConfiguration config)
+    public class PaymentsController : BaseApiController
     {
-        _config = config;
-        _context = context;
-        _paymentService = paymentService;
-    }
+        private readonly PaymentService _paymentService;
+        private readonly StoreContext _context;
+        private readonly IConfiguration _config;
 
-   [Authorize]
-    [HttpPost]
-   public async Task<ActionResult<BasketDto>> CreateOrUpdatePaymentIntent()
+        public PaymentsController(PaymentService paymentService, StoreContext context, IConfiguration config)
+        {
+            _config = config;
+            _context = context;
+            _paymentService = paymentService;
+        }
+
+[Authorize]
+[HttpPost]
+public async Task<ActionResult<BasketDto>> CreateOrUpdatePaymentIntent()
 {
     var basket = await _context.Baskets
         .RetrieveBasketWithItems(User.Identity.Name)
         .FirstOrDefaultAsync();
-    if (basket == null) return NotFound();
+    if (basket == null) 
+    {
+        Console.WriteLine("Basket not found");
+        return NotFound();
+    }
+
+    Console.WriteLine($"Existing PaymentIntentId: {basket.PaymentIntentId}");
+
     var intent = await _paymentService.CreateOrUpdatePaymentIntent(basket);
-    if (intent == null) return BadRequest(new ProblemDetails { Title = "Problem creating payment intent" });
-    // Log payment intent details
-    Console.WriteLine($"Payment Intent Created/Updated: {intent.Id}");
-    Console.WriteLine($"Client Secret: {intent.ClientSecret}");
+    if (intent == null) 
+    {
+        Console.WriteLine("Failed to create or update PaymentIntent");
+        return BadRequest(new ProblemDetails { Title = "Problem creating payment intent" });
+    }
+
+    Console.WriteLine($"PaymentIntentId after creation/update: {intent.Id}");
+
     basket.PaymentIntentId = basket.PaymentIntentId ?? intent.Id;
     basket.ClientSecret = basket.ClientSecret ?? intent.ClientSecret;
     _context.Update(basket);
+
     var result = await _context.SaveChangesAsync() > 0;
-    if (!result) return BadRequest(new ProblemDetails { Title = "Problem updating basket with intent" });
+    if (!result) 
+    {
+        Console.WriteLine("Failed to update basket with PaymentIntent");
+        return BadRequest(new ProblemDetails { Title = "Problem updating basket with intent" });
+    }
+
     return basket.MapBasketToDto();
 }
 
-    [AllowAnonymous]
-    [HttpPost("webhook")]
-    public async Task<ActionResult> StripeWebhook()
-    {
-        var json = await new StreamReader(HttpContext.Request.Body).ReadToEndAsync();
 
-        var stripeEvent = EventUtility.ConstructEvent(json, Request.Headers["Stripe-Signature"],
-            _config["StripeSettings:WhSecret"]);
+        [AllowAnonymous]
+        [HttpPost("webhook")]
+        public async Task<ActionResult> StripeWebhook()
+        {
+            var json = await new StreamReader(HttpContext.Request.Body).ReadToEndAsync();
 
-        var charge = (Charge)stripeEvent.Data.Object;
+            var stripeEvent = EventUtility.ConstructEvent(json, Request.Headers["Stripe-Signature"],
+                _config["StripeSettings:WebhookSecret"]);
 
-        var order = await _context.Orders.FirstOrDefaultAsync(x => 
-            x.PaymentIntentId == charge.PaymentIntentId);
+            var charge = (Charge)stripeEvent.Data.Object;
 
-        if (charge.Status == "succeeded") order.OrderStatus = OrderStatus.PaymentReceived;
+            var order = await _context.Orders.FirstOrDefaultAsync(x => 
+                x.PaymentIntentId == charge.PaymentIntentId);
 
-        await _context.SaveChangesAsync();
+            if (charge.Status == "succeeded") order.OrderStatus = OrderStatus.PaymentReceived;
 
-        return new EmptyResult();
+            await _context.SaveChangesAsync();
+
+            return new EmptyResult();
+        }
     }
 }
